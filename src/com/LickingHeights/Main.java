@@ -1,5 +1,6 @@
 package com.LickingHeights;
 
+import java.util.Random;
 import java.util.Scanner;
 
 public class Main {
@@ -12,6 +13,12 @@ public class Main {
         String response;
         Scanner keyboard;
         keyboard = new Scanner(System.in);
+        Random variable = new Random();
+        System.out.println("Would you like to play Alaska Roxxy Jinx?");
+        System.out.println(" ");
+        response = keyboard.nextLine();
+
+        
 
 
 
