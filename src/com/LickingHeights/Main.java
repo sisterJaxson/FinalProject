@@ -15,10 +15,21 @@ public class Main {
         keyboard = new Scanner(System.in);
         Random variable = new Random();
         System.out.println("Would you like to play Alaska Roxxy Jinx?");
-        System.out.println(" ");
         response = keyboard.nextLine();
 
-        
+        while(){
+            if(){
+
+            }
+            else(){
+
+            }
+            else(){
+
+            }
+            retur
+        }
+
 
 
 
