@@ -8,33 +8,30 @@ public class Main {
     public static void main(String[] args) {
 
         String userTurn;
-        String computerTurn;
+        String computerTurn ="";
         int computerInt;
         String response;
         Scanner keyboard;
         keyboard = new Scanner(System.in);
         Random variable = new Random();
         System.out.println("Would you like to play Alaska Roxxy Jinx?");
-        response = keyboard.nextLine();
+        computerInt = variable.nextInt(3)+1;
 
-        while(){
-            if(){
+        if (computerInt == 1)
+            computerTurn = "Alaska";
 
-            }
-            else(){
+        else if(computerInt == 2)
+            computerTurn = "Roxxy";
 
-            }
-            else(){
+        else if(computerInt == 3)
+            computerTurn = "Jinx";
 
-            }
-            retur
-        }
+        System.out.println("Alaska Roxxy Jinx shook:");
+        userTurn = keyboard.next();
+        System.out.println("I pick: "+computerTurn);
 
-
-
-
+        
 
 
 
-    }
 }
